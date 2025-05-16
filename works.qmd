@@ -1,5 +1,5 @@
 ---
-title: "Publicações"
+title: ""
 ---
 
 Lista de publicações, projetos e outras produções do grupo.
