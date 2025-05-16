@@ -4,7 +4,7 @@ project:
   output-dir: docs
 
 website:
-  title: "ProCoReS - Pesquisas em Redes Sociais"
+  title: "ProCoReS"
   favicon: imgs/logo/1.png
   navbar:
     logo: imgs/logo/2.png
