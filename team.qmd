@@ -24,9 +24,9 @@ for membro in team:
         html += f"<br><em>{membro['institution']}</em>"
     html += "<br>"
     if membro.get('lattes'):
-        html += f"<a href='{membro['lattes']}' target='_blank'>Lattes</a> "
+        html += f"<a href='{membro['lattes']}' target='_blank'>Lattes</a><br>"
     if membro.get('page'):
-        html += f"<a href='{membro['page']}' target='_blank'>Página</a>"
+        html += f"<a href='{membro['page']}' target='_blank'>Página Pessoal</a>"
     html += "</div></div>"
     display(HTML(html))
 ```
