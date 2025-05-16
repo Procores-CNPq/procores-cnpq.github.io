@@ -19,7 +19,10 @@ for membro in team:
     if membro.get('photo'):
         html += f"<img src='{membro['photo']}' alt='Foto de {membro['name']}' style='width:70px; height:70px; object-fit:cover; border-radius:50%; margin-right: 1em;'>"
     html += "<div>"
-    html += f"<strong>{membro['name']}</strong> — {membro['role']} ({membro['area']})<br>"
+    html += f"<strong>{membro['name']}</strong> — {membro['role']} ({membro['area']})"
+    if membro.get('institution'):
+        html += f"<br><em>{membro['institution']}</em>"
+    html += "<br>"
     if membro.get('lattes'):
         html += f"<a href='{membro['lattes']}' target='_blank'>Lattes</a> "
     if membro.get('page'):

@@ -1,1 +1,12 @@
 /* css styles */
+
+/* Navy blue navbar customization */
+.navbar, .navbar.navbar-expand-lg {
+  background-color: #0a2342 !important;
+}
+.navbar .navbar-brand, .navbar .nav-link, .navbar .navbar-nav .nav-link {
+  color: #fff !important;
+}
+.navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:hover {
+  color: #a2c5f5 !important;
+}

@@ -1,18 +1,21 @@
-- name: Ana Silva
+- name: Ana Paula C. da Silva
   role: Coordenadora
-  area: Modelagem Matemática
-  lattes: https://lattes.cnpq.br/0000000000000001
-  page: https://procores.org/ana-silva
-  photo: imgs/members/ana-silva.jpg
-- name: Bruno Souza
+  area: Modelagem de Redes Complexas
+  institution: UFMG
+  lattes: http://lattes.cnpq.br/2408991231058279
+  page: https://dcc.ufmg.br/professor/ana-paula-couto-da-silva/
+  photo: imgs/members/anapaula.jpg
+- name: Carina Dorneles
   role: Pesquisador
-  area: Estatística
-  lattes: https://lattes.cnpq.br/0000000000000002
+  area: Banco de Dados. Recuperação de Informação. Mineração de Dados.
+  institution: UFSC
+  lattes: http://lattes.cnpq.br/0378897709136226
   page: https://procores.org/bruno-souza
-  photo: imgs/members/bruno-souza.jpg
+  photo: imgs/members/carina.jpg
 - name: Carla Lima
   role: Pesquisadora
   area: Aprendizado de Máquina
+  institution: UFMG
   lattes: https://lattes.cnpq.br/0000000000000003
   page: https://procores.org/carla-lima
   photo: imgs/members/carla-lima.jpg
