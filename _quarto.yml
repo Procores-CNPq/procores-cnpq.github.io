@@ -15,7 +15,7 @@ website:
       - href: team.qmd
         text: Equipe
       - href: works.qmd
-        text: Trabalhos
+        text: Publicações
       - href: projects.qmd
         text: Projetos
       - href: students.qmd

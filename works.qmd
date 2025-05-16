@@ -1,8 +1,6 @@
 ---
-title: "Trabalhos Desenvolvidos"
+title: "Publicações"
 ---
-
-# Trabalhos Desenvolvidos
 
 Lista de publicações, projetos e outras produções do grupo.
 
