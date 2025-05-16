@@ -6,7 +6,9 @@ title: ""
 
 ## ProCoReS - Pesquisas em Redes Sociais
 
-O ProCoReS é um grupo de pesquisa do CNPq dedicado ao estudo de redes sociais, modelagem matemática, processos de contágio e análise de dados complexos. O grupo reúne pesquisadores de diferentes áreas para propor e analisar modelos inovadores que consideram múltiplos aspectos das redes sociais e suas dinâmicas.
+O ProCoReS é um grupo de pesquisa financiado pelo CNPq dedicado ao estudo de redes sociais, modelagem matemática, processos de contágio e análise de dados complexos. O grupo reúne pesquisadores de diferentes áreas para propor e analisar modelos inovadores que consideram múltiplos aspectos das redes sociais e suas dinâmicas.
+
+
 
 ```{=html}
 <!-- Carrossel Bootstrap -->
