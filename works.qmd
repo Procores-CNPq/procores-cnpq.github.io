@@ -1,0 +1,31 @@
+---
+title: "Trabalhos Desenvolvidos"
+---
+
+# Trabalhos Desenvolvidos
+
+Lista de publicações, projetos e outras produções do grupo.
+
+```{python}
+#| echo: false
+#| eval: true
+import yaml
+from pathlib import Path
+with open(Path("works.yml"), encoding="utf-8") as f:
+    works = yaml.safe_load(f)
+for work in works:
+    display = f"""
+<div style='margin-bottom:1.5em;'>
+<strong>{work['title']}</strong> ({work['type']})<br>
+<b>Autores:</b> {', '.join(work['authors'])}<br>
+"""
+    if work.get('seniors'):
+        display += f"<b>Membros Sênior:</b> {', '.join(work['seniors'])}<br>"
+    display += f"<b>Evento/Instituição:</b> {work['event']}<br>"
+    display += f"<b>Data:</b> {work['date']}<br>"
+    if work.get('banca'):
+        display += f"<b>Banca:</b> {', '.join(work['banca'])}<br>"
+    display += f"<b>Referência:</b> {work['reference']}<br>"
+    display += "</div>\n"
+    print(display)
+```

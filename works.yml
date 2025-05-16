@@ -1,0 +1,24 @@
+- type: "Artigo"
+  seniors: ["Ana Silva"]
+  authors: ["Ana Silva", "Bruno Souza"]
+  title: "Modelo de Contágio em Redes Complexas"
+  event: "Revista Brasileira de Redes Complexas"
+  date: "2024-03-15"
+  banca: null
+  reference: "Silva, A., Souza, B. Modelo de Contágio em Redes Complexas. Revista Brasileira de Redes Complexas, 2024."
+- type: "Projeto"
+  seniors: ["Bruno Souza"]
+  authors: ["Bruno Souza", "Carla Lima"]
+  title: "Análise de Dados de Mobilidade Social"
+  event: "Universidade Federal do Exemplo"
+  date: "2023-12-01"
+  banca: null
+  reference: "Souza, B., Lima, C. Análise de Dados de Mobilidade Social. Projeto de Pesquisa, Universidade Federal do Exemplo, 2023."
+- type: "Trabalho em Congresso"
+  seniors: ["Ana Silva"]
+  authors: ["Carla Lima", "Ana Silva"]
+  title: "Simulação Multiagente de Processos de Contágio"
+  event: "Congresso Internacional de Redes Sociais"
+  date: "2023-08-20"
+  banca: ["Prof. Dr. João Pereira", "Profa. Dra. Maria Costa"]
+  reference: "Lima, C., Silva, A. Simulação Multiagente de Processos de Contágio. Anais do Congresso Internacional de Redes Sociais, 2023."

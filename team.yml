@@ -1,0 +1,18 @@
+- name: Ana Silva
+  role: Coordenadora
+  area: Modelagem Matemática
+  lattes: https://lattes.cnpq.br/0000000000000001
+  page: https://procores.org/ana-silva
+  photo: imgs/members/ana-silva.jpg
+- name: Bruno Souza
+  role: Pesquisador
+  area: Estatística
+  lattes: https://lattes.cnpq.br/0000000000000002
+  page: https://procores.org/bruno-souza
+  photo: imgs/members/bruno-souza.jpg
+- name: Carla Lima
+  role: Pesquisadora
+  area: Aprendizado de Máquina
+  lattes: https://lattes.cnpq.br/0000000000000003
+  page: https://procores.org/carla-lima
+  photo: imgs/members/carla-lima.jpg
