@@ -16,6 +16,10 @@ website:
         text: Equipe
       - href: works.qmd
         text: Trabalhos
+      - href: projects.qmd
+        text: Projetos
+      - href: students.qmd
+        text: Estudantes
 
 format:
   html:

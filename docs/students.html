@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ProCoReS</title>
+<title>Estudantes – ProCoReS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,7 +23,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -67,6 +67,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -90,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -106,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projetos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./students.html"> 
+    <a class="nav-link active" href="./students.html" aria-current="page"> 
 <span class="menu-text">Estudantes</span></a>
   </li>  
 </ul>
@@ -125,75 +128,45 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#procores---pesquisas-em-redes-sociais" id="toc-procores---pesquisas-em-redes-sociais" class="nav-link active" data-scroll-target="#procores---pesquisas-em-redes-sociais">ProCoReS - Pesquisas em Redes Sociais</a></li>
-  <li><a href="#objetivo-do-projeto" id="toc-objetivo-do-projeto" class="nav-link" data-scroll-target="#objetivo-do-projeto">Objetivo do Projeto</a></li>
-  <li><a href="#instituições-parceiras" id="toc-instituições-parceiras" class="nav-link" data-scroll-target="#instituições-parceiras">Instituições Parceiras</a></li>
+  <li><a href="#estudantes-do-procores" id="toc-estudantes-do-procores" class="nav-link active" data-scroll-target="#estudantes-do-procores">Estudantes do ProCoReS</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<section id="procores---pesquisas-em-redes-sociais" class="level2">
-<h2 class="anchored" data-anchor-id="procores---pesquisas-em-redes-sociais">ProCoReS - Pesquisas em Redes Sociais</h2>
-<p>O ProCoReS é um grupo de pesquisa financiado pelo CNPq dedicado ao estudo de redes sociais, modelagem matemática, processos de contágio e análise de dados complexos. O grupo reúne pesquisadores de diferentes áreas para propor e analisar modelos inovadores que consideram múltiplos aspectos das redes sociais e suas dinâmicas.</p>
-<!-- Carrossel Bootstrap -->
-<div id="carousel-procores" class="carousel slide" data-bs-ride="carousel" style="max-width:900px; margin:auto; margin-bottom:2em;">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="imgs/banner/1.png" class="d-block w-100" alt="Banner 1" style="border-radius:12px;">
-    </div>
-    <div class="carousel-item">
-      <img src="imgs/banner/2.png" class="d-block w-100" alt="Banner 2" style="border-radius:12px;">
-    </div>
-    <div class="carousel-item">
-      <img src="imgs/banner/3.png" class="d-block w-100" alt="Banner 3" style="border-radius:12px;">
-    </div>
-    <div class="carousel-item">
-      <img src="imgs/banner/4.png" class="d-block w-100" alt="Banner 4" style="border-radius:12px;">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-procores" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel-procores" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Estudantes</h1>
 </div>
-</section>
-<section id="objetivo-do-projeto" class="level2">
-<h2 class="anchored" data-anchor-id="objetivo-do-projeto">Objetivo do Projeto</h2>
-<p><img src="imgs/logo/1.png" alt="Logo ProCoReS" style="width:300px; height:auto; border-radius:6px; float:right; margin-left:2em; margin-bottom:1em;"></p>
-<p>Para modelar redes e contágio, a maioria das soluções atuais utiliza grafos. Porém, eles não são totalmente realistas, e novos modelos de processos de contágio devem permitir: representação de diferentes classes de indivíduos e conexões, ligação entre processos e ocorrência concomitantes, e conexões com dois ou mais indivíduos ao mesmo tempo. Entender como conexões são formadas e como os tipos de fluxos permeiam tais redes é fundamental para entender como nossa sociedade se organiza e evolui. O objetivo é propor modelos matemáticos, estatísticos, de agentes e de aprendizado de máquina que consideram: múltiplos aspectos complexos de processos de contágio social e parametrização através de fontes de dados (ex., redes sociais online, mobilidade, colaborações). Tais modelos devem permitir classes de indivíduos e relacionamentos; modelar a co-ocorrência, causalidade e ligação entre processos de contágio; e representar multi-relacionamentos.</p>
-</section>
-<section id="instituições-parceiras" class="level2">
-<h2 class="anchored" data-anchor-id="instituições-parceiras">Instituições Parceiras</h2>
-<div style="display: grid; grid-template-rows: 1fr 1fr; grid-template-columns: repeat(3, 1fr); gap: 2.5em; justify-items: center; align-items: center; margin-top:3em; margin-bottom:3em;">
-  <!-- Top row: CNPq centered -->
-  <div style="grid-row: 1; grid-column: 2;">
-    <a href="https://www.cnpq.br/" target="_blank" style="display:inline-block;">
-      <img src="imgs/institutions/CNPq.png" alt="CNPq" style="height:110px; max-width:260px; object-fit:contain; background:#fff; border-radius:8px; box-shadow:0 2px 8px #0001; padding:12px; margin-bottom:0.5em;">
-    </a>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-  <!-- Bottom row: UFMG, UFSC, Calvin -->
-  <div style="grid-row: 2; grid-column: 1;">
-    <a href="https://www.ufmg.br/" target="_blank" style="display:inline-block;">
-      <img src="imgs/institutions/UFMG.png" alt="UFMG" style="height:110px; max-width:260px; object-fit:contain; background:#fff; border-radius:8px; box-shadow:0 2px 8px #0001; padding:12px; margin-bottom:0.5em;">
-    </a>
-  </div>
-  <div style="grid-row: 2; grid-column: 2;">
-    <a href="https://ufsc.br/" target="_blank" style="display:inline-block;">
-      <img src="imgs/institutions/UFSC.png" alt="UFSC" style="height:110px; max-width:260px; object-fit:contain; background:#fff; border-radius:8px; box-shadow:0 2px 8px #0001; padding:12px; margin-bottom:0.5em;">
-    </a>
-  </div>
-  <div style="grid-row: 2; grid-column: 3;">
-    <a href="https://www.calvin.edu/" target="_blank" style="display:inline-block;">
-      <img src="imgs/institutions/Calvin.png" alt="Calvin University" style="height:110px; max-width:260px; object-fit:contain; background:#fff; border-radius:8px; box-shadow:0 2px 8px #0001; padding:12px; margin-bottom:0.5em;">
-    </a>
-  </div>
+  
+
+
+</header>
+
+
+<section id="estudantes-do-procores" class="level1">
+<h1>Estudantes do ProCoReS</h1>
+<p>Abaixo estão listados os estudantes vinculados ao grupo de pesquisa.</p>
+<div id="88444bb9" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div style="margin-bottom:1.2em;"><strong>João Silva</strong><br><a href="http://lattes.cnpq.br/1234567890123456" target="_blank">Lattes</a><br><a href="https://exemplo.com/joao" target="_blank">Página Pessoal</a></div>
+</div>
+<div class="cell-output cell-output-display">
+<div style="margin-bottom:1.2em;"><strong>Maria Souza</strong><br><a href="http://lattes.cnpq.br/2345678901234567" target="_blank">Lattes</a><br><a href="https://exemplo.com/maria" target="_blank">Página Pessoal</a></div>
+</div>
+<div class="cell-output cell-output-display">
+<div style="margin-bottom:1.2em;"><strong>Pedro Lima</strong><br><a href="http://lattes.cnpq.br/3456789012345678" target="_blank">Lattes</a><br><a href="https://exemplo.com/pedro" target="_blank">Página Pessoal</a></div>
+</div>
 </div>
 
 

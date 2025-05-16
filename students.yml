@@ -1,0 +1,9 @@
+- name: João Silva
+  lattes: http://lattes.cnpq.br/1234567890123456
+  page: https://exemplo.com/joao
+- name: Maria Souza
+  lattes: http://lattes.cnpq.br/2345678901234567
+  page: https://exemplo.com/maria
+- name: Pedro Lima
+  lattes: http://lattes.cnpq.br/3456789012345678
+  page: https://exemplo.com/pedro

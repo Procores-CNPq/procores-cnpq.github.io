@@ -1,0 +1,23 @@
+---
+title: "Projetos"
+---
+
+
+# Projetos do ProCoReS
+
+Abaixo estão listados os projetos do grupo de pesquisa.
+
+```{python}
+#| echo: false
+#| eval: true
+import yaml
+from pathlib import Path
+from IPython.display import display, HTML
+with open(Path("projects.yml"), encoding="utf-8") as f:
+    projects = yaml.safe_load(f)
+for project in projects:
+    html = f"<div style='margin-bottom:2em;'><h3 style='margin-bottom:0.2em'>{project['title']}</h3>"
+    html += f"<div style='margin-bottom:0.7em'>{project['description']}</div>"
+    html += "</div>"
+    display(HTML(html))
+```

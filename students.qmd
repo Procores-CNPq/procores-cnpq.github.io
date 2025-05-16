@@ -1,0 +1,26 @@
+---
+title: "Estudantes"
+---
+
+# Estudantes do ProCoReS
+
+Abaixo estão listados os estudantes vinculados ao grupo de pesquisa.
+
+```{python}
+#| echo: false
+#| eval: true
+import yaml
+from pathlib import Path
+from IPython.display import display, HTML
+with open(Path("students.yml"), encoding="utf-8") as f:
+    students = yaml.safe_load(f)
+for student in students:
+    html = f"<div style='margin-bottom:1.2em;'>"
+    html += f"<strong>{student['name']}</strong>"
+    if student.get('lattes'):
+        html += f"<br><a href='{student['lattes']}' target='_blank'>Lattes</a>"
+    if student.get('page'):
+        html += f"<br><a href='{student['page']}' target='_blank'>Página Pessoal</a>"
+    html += "</div>"
+    display(HTML(html))
+```
