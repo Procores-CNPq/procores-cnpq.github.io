@@ -11,21 +11,22 @@ Lista de publicações, projetos e outras produções do grupo.
 #| eval: true
 import yaml
 from pathlib import Path
+from IPython.display import display, HTML
 with open(Path("works.yml"), encoding="utf-8") as f:
     works = yaml.safe_load(f)
 for work in works:
-    display = f"""
+    html = f"""
 <div style='margin-bottom:1.5em;'>
 <strong>{work['title']}</strong> ({work['type']})<br>
 <b>Autores:</b> {', '.join(work['authors'])}<br>
 """
     if work.get('seniors'):
-        display += f"<b>Membros Sênior:</b> {', '.join(work['seniors'])}<br>"
-    display += f"<b>Evento/Instituição:</b> {work['event']}<br>"
-    display += f"<b>Data:</b> {work['date']}<br>"
+        html += f"<b>Membros Sênior:</b> {', '.join(work['seniors'])}<br>"
+    html += f"<b>Evento/Instituição:</b> {work['event']}<br>"
+    html += f"<b>Data:</b> {work['date']}<br>"
     if work.get('banca'):
-        display += f"<b>Banca:</b> {', '.join(work['banca'])}<br>"
-    display += f"<b>Referência:</b> {work['reference']}<br>"
-    display += "</div>\n"
-    print(display)
+        html += f"<b>Banca:</b> {', '.join(work['banca'])}<br>"
+    html += f"<b>Referência:</b> {work['reference']}<br>"
+    html += "</div>"
+    display(HTML(html))
 ```
