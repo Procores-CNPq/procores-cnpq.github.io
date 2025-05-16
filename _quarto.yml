@@ -9,6 +9,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: team.qmd
+        text: Equipe
+      - href: works.qmd
+        text: Trabalhos
       - about.qmd
 
 format:

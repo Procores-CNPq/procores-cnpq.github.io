@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "Apresentação do Projeto",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Para modelar redes e contágio, a maioria das soluções atuais utiliza grafos. Porém, eles não são totalmente realistas, e novos modelos de processos de contágio devem permitir: representação de diferentes classes de indivíduos e conexões, ligação entre processos e ocorrência concomitantes, e conexões com dois ou mais indivíduos ao mesmo tempo. Entender como conexões são formadas e como os tipos de fluxos permeiam tais redes é fundamental para entender como nossa sociedade se organiza e evolui. O objetivo é propor modelos matemáticos, estatísticos, de agentes e de aprendizado de máquina que consideram: múltiplos aspectos complexos de processos de contágio social e parametrização através de fontes de dados (ex., redes sociais online, mobilidade, colaborações). Tais modelos devem permitir classes de indivíduos e relacionamentos; modelar a co-ocorrência, causalidade e ligação entre processos de contágio; e representar multi-relacionamentos."
-  },
-  {
-    "objectID": "project.html#objetivo-do-projeto",
-    "href": "project.html#objetivo-do-projeto",
-    "title": "Apresentação do Projeto",
-    "section": "",
-    "text": "Para modelar redes e contágio, a maioria das soluções atuais utiliza grafos. Porém, eles não são totalmente realistas, e novos modelos de processos de contágio devem permitir: representação de diferentes classes de indivíduos e conexões, ligação entre processos e ocorrência concomitantes, e conexões com dois ou mais indivíduos ao mesmo tempo. Entender como conexões são formadas e como os tipos de fluxos permeiam tais redes é fundamental para entender como nossa sociedade se organiza e evolui. O objetivo é propor modelos matemáticos, estatísticos, de agentes e de aprendizado de máquina que consideram: múltiplos aspectos complexos de processos de contágio social e parametrização através de fontes de dados (ex., redes sociais online, mobilidade, colaborações). Tais modelos devem permitir classes de indivíduos e relacionamentos; modelar a co-ocorrência, causalidade e ligação entre processos de contágio; e representar multi-relacionamentos."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ProCoReS",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "works.html",
-    "href": "works.html",
-    "title": "Trabalhos Desenvolvidos",
-    "section": "",
-    "text": "Trabalhos Desenvolvidos\nLista de publicações, projetos e outras produções do grupo.\n\n\n\n&lt;div style='margin-bottom:1.5em;'&gt;\n&lt;strong&gt;Modelo de Contágio em Redes Complexas&lt;/strong&gt; (Artigo)&lt;br&gt;\n&lt;b&gt;Autores:&lt;/b&gt; Ana Silva, Bruno Souza&lt;br&gt;\n&lt;b&gt;Membros Sênior:&lt;/b&gt; Ana Silva&lt;br&gt;&lt;b&gt;Evento/Instituição:&lt;/b&gt; Revista Brasileira de Redes Complexas&lt;br&gt;&lt;b&gt;Data:&lt;/b&gt; 2024-03-15&lt;br&gt;&lt;b&gt;Referência:&lt;/b&gt; Silva, A., Souza, B. Modelo de Contágio em Redes Complexas. Revista Brasileira de Redes Complexas, 2024.&lt;br&gt;&lt;/div&gt;\n\n\n&lt;div style='margin-bottom:1.5em;'&gt;\n&lt;strong&gt;Análise de Dados de Mobilidade Social&lt;/strong&gt; (Projeto)&lt;br&gt;\n&lt;b&gt;Autores:&lt;/b&gt; Bruno Souza, Carla Lima&lt;br&gt;\n&lt;b&gt;Membros Sênior:&lt;/b&gt; Bruno Souza&lt;br&gt;&lt;b&gt;Evento/Instituição:&lt;/b&gt; Universidade Federal do Exemplo&lt;br&gt;&lt;b&gt;Data:&lt;/b&gt; 2023-12-01&lt;br&gt;&lt;b&gt;Referência:&lt;/b&gt; Souza, B., Lima, C. Análise de Dados de Mobilidade Social. Projeto de Pesquisa, Universidade Federal do Exemplo, 2023.&lt;br&gt;&lt;/div&gt;\n\n\n&lt;div style='margin-bottom:1.5em;'&gt;\n&lt;strong&gt;Simulação Multiagente de Processos de Contágio&lt;/strong&gt; (Trabalho em Congresso)&lt;br&gt;\n&lt;b&gt;Autores:&lt;/b&gt; Carla Lima, Ana Silva&lt;br&gt;\n&lt;b&gt;Membros Sênior:&lt;/b&gt; Ana Silva&lt;br&gt;&lt;b&gt;Evento/Instituição:&lt;/b&gt; Congresso Internacional de Redes Sociais&lt;br&gt;&lt;b&gt;Data:&lt;/b&gt; 2023-08-20&lt;br&gt;&lt;b&gt;Banca:&lt;/b&gt; Prof. Dr. João Pereira, Profa. Dra. Maria Costa&lt;br&gt;&lt;b&gt;Referência:&lt;/b&gt; Lima, C., Silva, A. Simulação Multiagente de Processos de Contágio. Anais do Congresso Internacional de Redes Sociais, 2023.&lt;br&gt;&lt;/div&gt;"
+    "text": "About this site"
   },
   {
     "objectID": "team.html",
@@ -35,10 +14,24 @@
     "text": "Equipe ProCoReS\nLista dos membros do grupo de pesquisa.\n\n\n&lt;div style='display: flex; align-items: center; margin-bottom: 1em;'&gt;&lt;img src='imgs/members/ana-silva.jpg' alt='Foto de Ana Silva' style='width:70px; height:70px; object-fit:cover; border-radius:50%; margin-right: 1em;'&gt;&lt;div&gt;&lt;strong&gt;Ana Silva&lt;/strong&gt; — Coordenadora (Modelagem Matemática)&lt;br&gt;&lt;a href='https://lattes.cnpq.br/0000000000000001' target='_blank'&gt;Lattes&lt;/a&gt; &lt;a href='https://procores.org/ana-silva' target='_blank'&gt;Página&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;\n\n&lt;div style='display: flex; align-items: center; margin-bottom: 1em;'&gt;&lt;img src='imgs/members/bruno-souza.jpg' alt='Foto de Bruno Souza' style='width:70px; height:70px; object-fit:cover; border-radius:50%; margin-right: 1em;'&gt;&lt;div&gt;&lt;strong&gt;Bruno Souza&lt;/strong&gt; — Pesquisador (Estatística)&lt;br&gt;&lt;a href='https://lattes.cnpq.br/0000000000000002' target='_blank'&gt;Lattes&lt;/a&gt; &lt;a href='https://procores.org/bruno-souza' target='_blank'&gt;Página&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;\n\n&lt;div style='display: flex; align-items: center; margin-bottom: 1em;'&gt;&lt;img src='imgs/members/carla-lima.jpg' alt='Foto de Carla Lima' style='width:70px; height:70px; object-fit:cover; border-radius:50%; margin-right: 1em;'&gt;&lt;div&gt;&lt;strong&gt;Carla Lima&lt;/strong&gt; — Pesquisadora (Aprendizado de Máquina)&lt;br&gt;&lt;a href='https://lattes.cnpq.br/0000000000000003' target='_blank'&gt;Lattes&lt;/a&gt; &lt;a href='https://procores.org/carla-lima' target='_blank'&gt;Página&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "works.html",
+    "href": "works.html",
+    "title": "Trabalhos Desenvolvidos",
     "section": "",
-    "text": "About this site"
+    "text": "Trabalhos Desenvolvidos\nLista de publicações, projetos e outras produções do grupo.\n\n\n\n&lt;div style='margin-bottom:1.5em;'&gt;\n&lt;strong&gt;Modelo de Contágio em Redes Complexas&lt;/strong&gt; (Artigo)&lt;br&gt;\n&lt;b&gt;Autores:&lt;/b&gt; Ana Silva, Bruno Souza&lt;br&gt;\n&lt;b&gt;Membros Sênior:&lt;/b&gt; Ana Silva&lt;br&gt;&lt;b&gt;Evento/Instituição:&lt;/b&gt; Revista Brasileira de Redes Complexas&lt;br&gt;&lt;b&gt;Data:&lt;/b&gt; 2024-03-15&lt;br&gt;&lt;b&gt;Referência:&lt;/b&gt; Silva, A., Souza, B. Modelo de Contágio em Redes Complexas. Revista Brasileira de Redes Complexas, 2024.&lt;br&gt;&lt;/div&gt;\n\n\n&lt;div style='margin-bottom:1.5em;'&gt;\n&lt;strong&gt;Análise de Dados de Mobilidade Social&lt;/strong&gt; (Projeto)&lt;br&gt;\n&lt;b&gt;Autores:&lt;/b&gt; Bruno Souza, Carla Lima&lt;br&gt;\n&lt;b&gt;Membros Sênior:&lt;/b&gt; Bruno Souza&lt;br&gt;&lt;b&gt;Evento/Instituição:&lt;/b&gt; Universidade Federal do Exemplo&lt;br&gt;&lt;b&gt;Data:&lt;/b&gt; 2023-12-01&lt;br&gt;&lt;b&gt;Referência:&lt;/b&gt; Souza, B., Lima, C. Análise de Dados de Mobilidade Social. Projeto de Pesquisa, Universidade Federal do Exemplo, 2023.&lt;br&gt;&lt;/div&gt;\n\n\n&lt;div style='margin-bottom:1.5em;'&gt;\n&lt;strong&gt;Simulação Multiagente de Processos de Contágio&lt;/strong&gt; (Trabalho em Congresso)&lt;br&gt;\n&lt;b&gt;Autores:&lt;/b&gt; Carla Lima, Ana Silva&lt;br&gt;\n&lt;b&gt;Membros Sênior:&lt;/b&gt; Ana Silva&lt;br&gt;&lt;b&gt;Evento/Instituição:&lt;/b&gt; Congresso Internacional de Redes Sociais&lt;br&gt;&lt;b&gt;Data:&lt;/b&gt; 2023-08-20&lt;br&gt;&lt;b&gt;Banca:&lt;/b&gt; Prof. Dr. João Pereira, Profa. Dra. Maria Costa&lt;br&gt;&lt;b&gt;Referência:&lt;/b&gt; Lima, C., Silva, A. Simulação Multiagente de Processos de Contágio. Anais do Congresso Internacional de Redes Sociais, 2023.&lt;br&gt;&lt;/div&gt;"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ProCoReS",
+    "section": "",
+    "text": "Para modelar redes e contágio, a maioria das soluções atuais utiliza grafos. Porém, eles não são totalmente realistas, e novos modelos de processos de contágio devem permitir: representação de diferentes classes de indivíduos e conexões, ligação entre processos e ocorrência concomitantes, e conexões com dois ou mais indivíduos ao mesmo tempo. Entender como conexões são formadas e como os tipos de fluxos permeiam tais redes é fundamental para entender como nossa sociedade se organiza e evolui. O objetivo é propor modelos matemáticos, estatísticos, de agentes e de aprendizado de máquina que consideram: múltiplos aspectos complexos de processos de contágio social e parametrização através de fontes de dados (ex., redes sociais online, mobilidade, colaborações). Tais modelos devem permitir classes de indivíduos e relacionamentos; modelar a co-ocorrência, causalidade e ligação entre processos de contágio; e representar multi-relacionamentos."
+  },
+  {
+    "objectID": "index.html#objetivo-do-projeto",
+    "href": "index.html#objetivo-do-projeto",
+    "title": "ProCoReS",
+    "section": "",
+    "text": "Para modelar redes e contágio, a maioria das soluções atuais utiliza grafos. Porém, eles não são totalmente realistas, e novos modelos de processos de contágio devem permitir: representação de diferentes classes de indivíduos e conexões, ligação entre processos e ocorrência concomitantes, e conexões com dois ou mais indivíduos ao mesmo tempo. Entender como conexões são formadas e como os tipos de fluxos permeiam tais redes é fundamental para entender como nossa sociedade se organiza e evolui. O objetivo é propor modelos matemáticos, estatísticos, de agentes e de aprendizado de máquina que consideram: múltiplos aspectos complexos de processos de contágio social e parametrização através de fontes de dados (ex., redes sociais online, mobilidade, colaborações). Tais modelos devem permitir classes de indivíduos e relacionamentos; modelar a co-ocorrência, causalidade e ligação entre processos de contágio; e representar multi-relacionamentos."
   }
 ]
