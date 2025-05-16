@@ -5,8 +5,9 @@ project:
 
 website:
   title: "ProCoReS - Pesquisas em Redes Sociais"
+  favicon: imgs/logo/1.png
   navbar:
-    logo: imgs/logo/1.png
+    logo: imgs/logo/2.png
     left:
       - href: index.qmd
         text: ""
