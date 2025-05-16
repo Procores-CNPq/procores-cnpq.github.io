@@ -1,10 +1,9 @@
----
-title: "Home"
+title: false
 ---
 
 ## ProCoReS - Pesquisas em Redes Sociais
 
-<img src="imgs/logo/1.png" alt="Logo ProCoReS" style="width:120px; min-width:80px; max-width:160px; height:auto; border-radius:16px; box-shadow: 0 2px 8px #0002; float:left; margin-right:2em; margin-bottom:1em;">
+<img src="imgs/logo/1.png" alt="Logo ProCoReS" style="width:300px; height:auto; border-radius:16px; box-shadow: 0 2px 8px #0002;">
 
 ## Objetivo do Projeto
 
