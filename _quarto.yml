@@ -15,7 +15,6 @@ website:
         text: Equipe
       - href: works.qmd
         text: Trabalhos
-      - about.qmd
 
 format:
   html:

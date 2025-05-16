@@ -1,8 +1,6 @@
 ---
-title: "Equipe de Trabalho"
+title: "Equipe ProCoReS"
 ---
-
-# Equipe ProCoReS
 
 Lista dos membros do grupo de pesquisa.
 
