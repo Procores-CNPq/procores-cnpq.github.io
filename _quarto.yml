@@ -8,9 +8,10 @@ website:
   favicon: imgs/logo/1.png
   navbar:
     logo: imgs/logo/2.png
+    title: false
     left:
       - href: index.qmd
-        text: ""
+        text: Home
       - href: team.qmd
         text: Equipe
       - href: works.qmd

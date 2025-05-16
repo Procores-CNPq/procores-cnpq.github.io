@@ -1,10 +1,60 @@
 ---
-pagetitle: "Home"
+title: ""
 ---
 
 
+
+## ProCoReS - Pesquisas em Redes Sociais
+
+O ProCoReS é um grupo de pesquisa do CNPq dedicado ao estudo de redes sociais, modelagem matemática, processos de contágio e análise de dados complexos. O grupo reúne pesquisadores de diferentes áreas para propor e analisar modelos inovadores que consideram múltiplos aspectos das redes sociais e suas dinâmicas.
+
+```{=html}
+<!-- Carrossel Bootstrap -->
+<div id="carousel-procores" class="carousel slide" data-bs-ride="carousel" style="max-width:900px; margin:auto; margin-bottom:2em;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imgs/banner/1.png" class="d-block w-100" alt="Banner 1" style="border-radius:12px;">
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/banner/2.png" class="d-block w-100" alt="Banner 2" style="border-radius:12px;">
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/banner/3.png" class="d-block w-100" alt="Banner 3" style="border-radius:12px;">
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/banner/4.png" class="d-block w-100" alt="Banner 4" style="border-radius:12px;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-procores" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-procores" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+```
+
 ## Objetivo do Projeto
 
-<img src="imgs/logo/1.png" alt="Logo ProCoReS" style="width:300px; height:auto; border-radius:16px; box-shadow: 0 2px 8px #0002; float:right; margin-left:2em; margin-bottom:1em;">
+<img src="imgs/logo/1.png" alt="Logo ProCoReS" style="width:300px; height:auto; border-radius:6px; box-shadow: 0 2px 3px #0002; float:right; margin-left:2em; margin-bottom:1em;">
 
 Para modelar redes e contágio, a maioria das soluções atuais utiliza grafos. Porém, eles não são totalmente realistas, e novos modelos de processos de contágio devem permitir: representação de diferentes classes de indivíduos e conexões, ligação entre processos e ocorrência concomitantes, e conexões com dois ou mais indivíduos ao mesmo tempo. Entender como conexões são formadas e como os tipos de fluxos permeiam tais redes é fundamental para entender como nossa sociedade se organiza e evolui. O objetivo é propor modelos matemáticos, estatísticos, de agentes e de aprendizado de máquina que consideram: múltiplos aspectos complexos de processos de contágio social e parametrização através de fontes de dados (ex., redes sociais online, mobilidade, colaborações). Tais modelos devem permitir classes de indivíduos e relacionamentos; modelar a co-ocorrência, causalidade e ligação entre processos de contágio; e representar multi-relacionamentos.
+
+## Instituições Parceiras
+
+```{=html}
+<div style="display: flex; gap: 5em; align-items: center; flex-wrap: wrap; justify-content: center; margin-top:3em; margin-bottom:3em;">
+  <a href="https://www.ufmg.br/" target="_blank" style="display:inline-block;">
+    <img src="imgs/institutions/UFMG.png" alt="UFMG" style="height:70px; max-width:170px; object-fit:contain; background:#fff; border-radius:8px; box-shadow:0 2px 8px #0001; padding:8px; margin-bottom:0.5em;">
+  </a>
+  <a href="https://www.cnpq.br/" target="_blank" style="display:inline-block;">
+    <img src="imgs/institutions/CNPq.png" alt="CNPq" style="height:70px; max-width:170px; object-fit:contain; background:#fff; border-radius:8px; box-shadow:0 2px 8px #0001; padding:8px; margin-bottom:0.5em;">
+  </a>
+  <a href="https://ufsc.br/" target="_blank" style="display:inline-block;">
+    <img src="imgs/institutions/UFSC.png" alt="UFSC" style="height:70px; max-width:170px; object-fit:contain; background:#fff; border-radius:8px; box-shadow:0 2px 8px #0001; padding:8px; margin-bottom:0.5em;">
+  </a>
+  <a href="https://www.calvin.edu/" target="_blank" style="display:inline-block;">
+    <img src="imgs/institutions/Calvin.png" alt="Calvin University" style="height:70px; max-width:170px; object-fit:contain; background:#fff; border-radius:8px; box-shadow:0 2px 8px #0001; padding:8px; margin-bottom:0.5em;">
+  </a>
+</div>
+```

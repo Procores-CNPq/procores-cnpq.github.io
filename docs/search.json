@@ -4,14 +4,28 @@
     "href": "index.html",
     "title": "ProCoReS",
     "section": "",
-    "text": "Para modelar redes e contágio, a maioria das soluções atuais utiliza grafos. Porém, eles não são totalmente realistas, e novos modelos de processos de contágio devem permitir: representação de diferentes classes de indivíduos e conexões, ligação entre processos e ocorrência concomitantes, e conexões com dois ou mais indivíduos ao mesmo tempo. Entender como conexões são formadas e como os tipos de fluxos permeiam tais redes é fundamental para entender como nossa sociedade se organiza e evolui. O objetivo é propor modelos matemáticos, estatísticos, de agentes e de aprendizado de máquina que consideram: múltiplos aspectos complexos de processos de contágio social e parametrização através de fontes de dados (ex., redes sociais online, mobilidade, colaborações). Tais modelos devem permitir classes de indivíduos e relacionamentos; modelar a co-ocorrência, causalidade e ligação entre processos de contágio; e representar multi-relacionamentos."
+    "text": "O ProCoReS é um grupo de pesquisa do CNPq dedicado ao estudo de redes sociais, modelagem matemática, processos de contágio e análise de dados complexos. O grupo reúne pesquisadores de diferentes áreas para propor e analisar modelos inovadores que consideram múltiplos aspectos das redes sociais e suas dinâmicas."
+  },
+  {
+    "objectID": "index.html#procores---pesquisas-em-redes-sociais",
+    "href": "index.html#procores---pesquisas-em-redes-sociais",
+    "title": "ProCoReS",
+    "section": "",
+    "text": "O ProCoReS é um grupo de pesquisa do CNPq dedicado ao estudo de redes sociais, modelagem matemática, processos de contágio e análise de dados complexos. O grupo reúne pesquisadores de diferentes áreas para propor e analisar modelos inovadores que consideram múltiplos aspectos das redes sociais e suas dinâmicas."
   },
   {
     "objectID": "index.html#objetivo-do-projeto",
     "href": "index.html#objetivo-do-projeto",
     "title": "ProCoReS",
-    "section": "",
-    "text": "Para modelar redes e contágio, a maioria das soluções atuais utiliza grafos. Porém, eles não são totalmente realistas, e novos modelos de processos de contágio devem permitir: representação de diferentes classes de indivíduos e conexões, ligação entre processos e ocorrência concomitantes, e conexões com dois ou mais indivíduos ao mesmo tempo. Entender como conexões são formadas e como os tipos de fluxos permeiam tais redes é fundamental para entender como nossa sociedade se organiza e evolui. O objetivo é propor modelos matemáticos, estatísticos, de agentes e de aprendizado de máquina que consideram: múltiplos aspectos complexos de processos de contágio social e parametrização através de fontes de dados (ex., redes sociais online, mobilidade, colaborações). Tais modelos devem permitir classes de indivíduos e relacionamentos; modelar a co-ocorrência, causalidade e ligação entre processos de contágio; e representar multi-relacionamentos."
+    "section": "Objetivo do Projeto",
+    "text": "Objetivo do Projeto\n\nPara modelar redes e contágio, a maioria das soluções atuais utiliza grafos. Porém, eles não são totalmente realistas, e novos modelos de processos de contágio devem permitir: representação de diferentes classes de indivíduos e conexões, ligação entre processos e ocorrência concomitantes, e conexões com dois ou mais indivíduos ao mesmo tempo. Entender como conexões são formadas e como os tipos de fluxos permeiam tais redes é fundamental para entender como nossa sociedade se organiza e evolui. O objetivo é propor modelos matemáticos, estatísticos, de agentes e de aprendizado de máquina que consideram: múltiplos aspectos complexos de processos de contágio social e parametrização através de fontes de dados (ex., redes sociais online, mobilidade, colaborações). Tais modelos devem permitir classes de indivíduos e relacionamentos; modelar a co-ocorrência, causalidade e ligação entre processos de contágio; e representar multi-relacionamentos."
+  },
+  {
+    "objectID": "index.html#instituições-parceiras",
+    "href": "index.html#instituições-parceiras",
+    "title": "ProCoReS",
+    "section": "Instituições Parceiras",
+    "text": "Instituições Parceiras"
   },
   {
     "objectID": "works.html",
