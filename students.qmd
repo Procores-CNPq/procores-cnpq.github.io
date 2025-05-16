@@ -17,10 +17,10 @@ with open(Path("students.yml"), encoding="utf-8") as f:
 for student in students:
     html = f"<div style='margin-bottom:1.2em;'>"
     html += f"<strong>{student['name']}</strong>"
+    if student.get('institution'):
+        html += f"<br><em>{student['institution']}</em>"
     if student.get('lattes'):
         html += f"<br><a href='{student['lattes']}' target='_blank'>Lattes</a>"
-    if student.get('page'):
-        html += f"<br><a href='{student['page']}' target='_blank'>Página Pessoal</a>"
     html += "</div>"
     display(HTML(html))
 ```

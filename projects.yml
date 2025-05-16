@@ -1,18 +1,6 @@
-- title: "Modelagem de Contágio em Redes Complexas"
-  description: "Projeto de pesquisa sobre novos modelos matemáticos para contágio em redes."
-  students:
-    - name: João Silva
-      lattes: http://lattes.cnpq.br/1234567890123456
-      page: https://exemplo.com/joao
-      photo: imgs/members/joao.jpg
-    - name: Maria Souza
-      lattes: http://lattes.cnpq.br/2345678901234567
-      page: https://exemplo.com/maria
-      photo: imgs/members/maria.jpg
-- title: "Análise de Dados de Mobilidade Social"
-  description: "Projeto de análise de dados de mobilidade urbana usando redes sociais."
-  students:
-    - name: Pedro Lima
-      lattes: http://lattes.cnpq.br/3456789012345678
-      page: https://exemplo.com/pedro
-      photo: imgs/members/pedro.jpg
+- title: "Identificação de redes de opinião no Twitter por meio de algoritmos de detecção de comunidade"
+  description: ""
+- title: "Análise do comportamento de comunidades no Reddit frente à Guerra da Ucrânia"
+  description: ""
+- title: "Comentários de Anúncios no Airbnb: Investigando os Processos de Contágio"
+  description: ""
